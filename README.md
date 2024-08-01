@@ -26,31 +26,4 @@ Feel free to contribute to this repository by adding valuable resources, sharing
 Happy studying and good luck with your AWS certifications!
 
 
-aws-certification-motivation/
-│
-├── README.md
-│   └── Overview of the repository, goals, and instructions.
-│
-├── Certification_Guide/
-│   └── Guides and study materials for different AWS certifications (e.g., Solutions Architect, Developer, SysOps).
-│
-├── Presentation_Slides/
-│   └── Slides from meetings and training sessions.
-│
-├── Resources/
-│   ├── Books/
-│   │   └── Recommended reading materials.
-│   ├── Videos/
-│   │   └── Links to useful video tutorials and webinars.
-│   └── Online_Courses/
-│       └── Links to online courses and practice exams.
-│
-├── Meeting_Notes/
-│   └── Notes from team meetings and discussions.
-│
-├── Practice_Exams/
-│   └── Sample practice exams and questions.
-│
-└── Discussions/
-    └── Threads or markdown files for team discussions and Q&A.
 

@@ -231,7 +231,7 @@ resource "aws_route_table_association" "singapore_private_subnet_2" {
 # Launch EC2 Instance in Mumbai Public Subnet
 resource "aws_instance" "mumbai_ec2" {
   provider          = aws.mumbai
-  ami               = "ami-0c55b159cbfafe1f0"  # Example AMI ID (Amazon Linux 2) for Mumbai region
+  ami               = "ami-068e0f1a600cd311c"  # Example AMI ID (Amazon Linux 2) for Mumbai region
   instance_type     = "t2.micro"
   subnet_id         = aws_subnet.mumbai_public_1.id
   associate_public_ip_address = true
@@ -244,7 +244,7 @@ resource "aws_instance" "mumbai_ec2" {
 # Launch EC2 Instance in Singapore Public Subnet
 resource "aws_instance" "singapore_ec2" {
   provider          = aws.singapore
-  ami               = "ami-0b898040803850657"  # Example AMI ID (Amazon Linux 2) for Singapore region
+  ami               = "ami-012c2e8e24e2ae21d"  # Example AMI ID (Amazon Linux 2) for Singapore region
   instance_type     = "t2.micro"
   subnet_id         = aws_subnet.singapore_public_1.id
   associate_public_ip_address = true
